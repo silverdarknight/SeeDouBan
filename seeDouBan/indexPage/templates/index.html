@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="keywords" content=""/>
+		<meta name="author" content="ZhangWeiJian"/>
+		<title>看豆瓣</title>
+		<link href="../static/img/douban.png" rel="icon" sizes="192x192">
+		<link rel="stylesheet" type="text/css" href="../static/css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/searchArea.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/itemList.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/pageList.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/aboutThisSite.css">
+		<style type="text/css">
+			body{
+				margin:0px;
+				font-family: "Microsoft Yahei",serif;
+				background-color: #F0F0F0;
+			}
+			h1{
+				margin: 0px;
+			}
+			h4{
+				margin: 0px;
+			}
+			p{
+				margin:0px;
+			}
+			#container{
+				margin: 100px auto;
+				width:90%;
+				padding:50px 20px 100px;
+				box-sizing:border-box;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="app">
+			<div id="nav">
+				<nav-item></nav-item>
+			</div>
+			<div id="container">
+				<router-view></router-view>
+			</div>
+		</div>
+			
+		<script type="text/javascript" src="../static/scripts/vue.js"></script>
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+		<script type="text/javascript" src="../static/scripts/nav.js"></script>
+		<script type="text/javascript" src="../static/scripts/search.js"></script>
+		<script type="text/javascript" src="../static/scripts/itemList.js"></script>
+		<script type="text/javascript" src="../static/scripts/pageList.js"></script>
+		<script type="text/javascript" src="../static/scripts/aboutThisSite.js"></script>
+		<script type="text/javascript" src="../static/scripts/greatComment.js"></script>
+		<script type="text/javascript" src="../static/scripts/index.js"></script>
+	</body>
+</html>

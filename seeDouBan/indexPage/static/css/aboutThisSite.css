@@ -1,0 +1,14 @@
+.aboutThisSite{
+				display: flex;
+				flex-direction:column;
+				justify-content:flex-start;
+			}
+			.aboutThisSite>p{
+				text-align: center;
+				font-size: 25px;
+				font-weight: 400;
+			}
+			.aboutThisSite li{
+				font-size: 18px;
+				margin:10px 0;
+			}
