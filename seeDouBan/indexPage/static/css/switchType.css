@@ -1,0 +1,32 @@
+.movieOrBook{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	margin-bottom: 30px;
+}
+.movieOrBook>a{
+	padding:0px 25px;
+	margin-right: 60px;
+	line-height: 32px;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #87CEEB;
+	color:white;
+	border:solid 2px #B0E0E6;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	transition:all 0.5s;
+}
+.movieOrBook>a:hover{
+	border:solid 2px #87CEEB;
+	background-color: #F0F0F0;
+	color:gray;
+	transition:all 0.5s;
+}
+.movieOrBook_chose{
+	border:solid 2px #87CEEB !important;
+	background-color: #F0F0F0 !important;
+	color:gray !important;
+	transition:all 0.5s !important;
+}

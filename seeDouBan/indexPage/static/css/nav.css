@@ -1,66 +1,66 @@
 #nav{
-				position: fixed;
-				top:0px;
-				left:0px;
-				width: 100%;
-			}
-			.nav{
-				position: absolute;
-				top:0px;
-				left:0px;
-				width: 100%;
-				box-sizing:border-box;
-				padding:30px 78px 20px 50px;
-				display: flex;
-				flex-direction:row;
-				justify-content:space-between;
-				align-items:flex-end;
-				box-shadow: 0px 2px 3px 3px #C7C7C7;
-				background-color: white;
-			}
-			.nav_detail{
-				display: flex;
-				flex-direction:row;
-				justify-content:flex-start;
-				align-items:flex-end;
-			}
-			.nav_detail_title{
-				line-height: 50px;
-				display: flex;
-				flex-direction:row;
-				justify-content:space-between;
-				align-items:center;
-			}
-			.nav_detail_title_logo{
-				background: url('../img/douban.png') no-repeat;
-				background-size: 100% 100%;
-				width:40px;
-				height:40px;
-				margin-right: 10px;
-			}
-			.nav_detail h4{
-				margin-left: 20px;
-				color: #EEEE00;
-			}
-			.nav_link{
-				display: flex;
-				flex-direction:row;
-				justify-content:space-between;
-			}
-			.nav_link>a{
-				margin-left: 55px;
-				color: #757575;
-				text-decoration: none;
-				font-size: 17px;
-				font-weight: bold;
-				border:solid 3px rgba(0,0,0,0);
-				display: inline-block;
-				line-height:40px;
-				position: relative;
-				top:10px;
-				transition:all 0.5s;
-			}
-			.nav_link>a:hover{
-				transition:all 0.5s;
-				border-bottom: solid 3px #ADFF2F;
-			}
+	position: fixed;
+	top:0px;
+	left:0px;
+	width: 100%;
+}
+.nav{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	box-sizing:border-box;
+	padding:30px 78px 20px 50px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-end;
+	box-shadow: 0px 2px 3px 3px #C7C7C7;
+	background-color: white;
+}
+.nav_detail{
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:flex-end;
+}
+.nav_detail_title{
+	line-height: 50px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+}
+.nav_detail_title_logo{
+	background: url('../img/douban.png') no-repeat;
+	background-size: 100% 100%;
+	width:40px;
+	height:40px;
+	margin-right: 10px;
+}
+.nav_detail h4{
+	margin-left: 20px;
+	color: #EEEE00;
+}
+.nav_link{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.nav_link>a{
+	margin-left: 55px;
+	color: #757575;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	border:solid 3px rgba(0,0,0,0);
+	display: inline-block;
+	line-height:40px;
+	position: relative;
+	top:10px;
+	transition:all 0.5s;
+}
+.nav_link>a:hover{
+	transition:all 0.5s;
+	border-bottom: solid 3px #B0E0E6;
+}

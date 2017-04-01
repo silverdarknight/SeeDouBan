@@ -1,0 +1,49 @@
+.userRank{
+	width:100%;
+}
+.userRank table{
+	width:100%;
+}
+.userRank table tr{
+	height:35px;
+	line-height: 35px;
+}
+.userRank table tr:first-child{
+	background-color: black !important;
+	color:white !important;
+}
+.userRank_list{
+	width:6%
+}
+.userRank_trans{
+	width:9%;
+}
+.userRank_userName{
+	width:21%;
+}
+.userRank_focus,.userRank_broadcast,.userRank_DouLie,.userRank_shuyinji{
+	width:16%;
+}
+.userRank table tr:nth-child(2n+1){
+	background-color: #C7C7C7;
+}
+.userRank table td{
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+}
+.userRank table td:last-child{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+
+.uesrLeadTo{
+	display: block;
+	height:25px;
+	width:25px;
+	background: url('../img/leadTo.png') no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}

@@ -8,4 +8,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^index/', 'indexPage.views.index',name='index'),
+    url(r'^api/dataList/$', 'indexPage.views.getDataList',name='getDataList'),
+    url(r'^api/userList/$', 'indexPage.views.getUserList',name='getUserList'),
 )

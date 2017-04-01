@@ -14,8 +14,8 @@ var movie_book_item = Vue.extend({
 						</div>
 					</div>
 					<div class="itemList_main_item_right">
-						<a href="" class="itemList_main_item_picLink">
-							<img class="itemList_main_item_pic" src="../static/img/chamu.jpeg" alt="茶母">
+						<a :href="movieBookData.DoubanUrl" class="itemList_main_item_picLink">
+							<img class="itemList_main_item_pic" :src="movieBookData.picUrl" alt="">
 						</a>
 						<div class="itemList_main_item_mark">
 							<span>豆瓣评分{{movieBookData.mark}}</span>

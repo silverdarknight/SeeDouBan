@@ -8,11 +8,10 @@ Vue.component('nav-item',{
 					<h4>每日一更</h4>
 				</div>
 				<div class="nav_link">
-					<router-link to="/movieBookApp">精彩评论</router-link>
-					<router-link to="/">用户评论</router-link>
-					<router-link to="/">图说图影</router-link>
+					<router-link to="/movieBookApp/movieTop500">精彩评论</router-link>
+					<router-link to="/userRank/seeTop500">用户评论</router-link>
+					<router-link to="/imgDataPage/book">图说图影</router-link>
 			    	<router-link to="/aboutSiteApp">关于本站</router-link>
 				</div>
 			</div>`,
 });
-//router.start(nav, '#nav')
